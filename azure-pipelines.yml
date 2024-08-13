@@ -20,7 +20,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Naveenvsmadhurnewsc'
+    azureSubscription: 'Free Trial'
     appType: 'webAppLinux'
-    WebAppName: 'Javaappservice11'
+    WebAppName: 'javawebapp47'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
